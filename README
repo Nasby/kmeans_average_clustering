@@ -1,0 +1,9 @@
+The code can be compiled with a simple "make".
+
+Once compiled, the usage is:
+
+java Cluster [.txt Data File] [Int Amt. of Clusters] [kmeans/average]
+
+Example for running data2.txt with 2 clusters and using the kmeans algo:
+
+java Cluster data2.txt 2 kmeans
